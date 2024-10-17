@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda and Red Panda Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            margin: 10px;
+            width: 300px;
+            height: auto;
+            border: 5px solid #2c3e50;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Panda and Red Panda Gallery</h1>
+    <div class="gallery">
+        <img src="https://example.com/panda1.jpg" alt="Giant Panda">
+        <img src="https://example.com/panda2.jpg" alt="Giant Panda">
+        <img src="https://example.com/redpanda1.jpg" alt="Red Panda">
+        <img src="https://example.com/redpanda2.jpg" alt="Red Panda">
+    </div>
+</body>
+</html>
